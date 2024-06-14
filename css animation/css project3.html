@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Register Page</title>
+		<style>
+			.abc{
+				position : absolute;
+				top : 3px;
+				right : 3px;
+				border : solid;
+				height : 100px;
+				width : 100px;
+				border-radius : 100px;
+				animation-name : animation1;
+				animation-delay : 0.2s;
+				animation-duration : 3s;
+				animation-iteration-count : infinite;
+			}
+			@keyframes animation1{
+				from{
+					height : 100px;
+					width : 100px;
+				}
+				to{
+					height : 200px;
+					width : 200px;
+				}
+			}
+			img{
+				height : 100%;
+				width : 100%;
+				border-radius : 100px;
+			}
+			h3{
+				position : relative;
+				top : 2px;
+				right : 150px;
+				background-color : lightblue;
+				height : 70px;
+				width : 200px;
+				text-align : center;
+				padding : 20px;
+				border : solid;
+				border-radius : 30px;
+				animation-name : animation2;
+				animation-delay : 0.5s;
+				animation-duration : 3s;
+				animation-iteration-count : infinite;
+			}
+			@keyframes animation2{
+				from{
+					background-color : orange;
+				}
+				to{
+					background-color : lightgreen;
+				}
+			}
+			.abc h3{
+				display : none;
+			}
+			.abc:hover h3{
+				display : block;
+			}
+			.abc:hover{
+				animation : none;
+			}
+
+			.x1{
+				background-color : tomato;
+				text-align : center;
+				padding : 20px;			
+			}
+			.x3{
+				text-align : center;
+				background-color : lightblue;
+				padding : 30px;
+			}
+			.x2{
+				background-color:black;
+				display : grid;
+				grid-template-columns: auto auto;
+				padding : 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="abc">
+			<img src="https://img.freepik.com/free-vector/modern-question-mark-template-idea-message-vector_1017-47932.jpg?size=338&ext=jpg&ga=GA1.1.44546679.1716768000&semt=ais_user">
+			<h3>
+				Website: www.codegnan.com
+				<br>
+				Mobile: +91 1234567890
+			</h3>
+		</div>
+		<div class="x">
+			<div class="x1">
+				<h1>Register Page</h1>
+					<br>
+				<a href="index.html"><h2> Home Page </h2> </a>
+			</div>
+			<div class="x2">
+				<div>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/r9SHXfmebcw?si=wmnKw53RisYWb3q3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+				<div>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/YzybXE3zl1Q?si=07baa8kncbFvBUKl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="x3">
+				<h2>&copy; CopyRights Reserved</h2>
+			</div>
+		</div>
+	</body>
+</html>

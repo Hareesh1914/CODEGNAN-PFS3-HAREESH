@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Meta Data</title>
+		<meta name = "author" content="Harish">
+		<meta name="description" content="Basic Page">
+		<meta name="keywords" content = "HTML,Metatags">
+		<meta name="revised" content = "Saivardhan, 16/05/2024">
+	</head>
+	<body>
+		<h1> Form Tag Example </h1>
+		<form action="sample.html" method="post" target="_blank">
+			<fieldset>
+			<legend>User Details</legend>
+			<label for="fname">First Name:  </label><br>
+			<input type="text" name="fisrt name" value="Hari" id="fname" required>
+			<br>
+			<br>
+			<label for="lname">Last Name:  </label><br>
+			<input type="text" name="last name"  id="lname">
+			<br>
+			<br>
+			<label for="pass">Password :  </label><br>
+			<input type="password" id="pass" required>
+			<br>
+			<br>
+			<label for="mail">Email Id :  </label><br>
+			<input type="email" id="mail">
+			<br>
+			<br>
+			<label for="gender">Select Your gender :</label><br>
+			<input type="radio" id="gender" name="gender" value="male">Male
+			<br>
+			<input type="radio" id="gender" name="gender" value="female">Female
+			<br>
+			<br>
+			<label for="checkboxx">Choose your Hobbies: </label><br>
+			<input type="checkbox" id="chechboxx" name="hobby" value="Playing">Playing
+			<br>
+			<input type="checkbox" id="chechboxx" name="hobby" value="Playing">Sleeping
+			<br>
+			<input type="checkbox" id="chechboxx" name="hobby" value="Playing">Praying
+			<br>
+			<br>
+			<label for="optionselect">Select you State : </label>
+			<select id="optionselect">
+				<option value="ap">Andhra Pradesh</option>
+				<option value="tg">Telangana</option>
+				<option value="Arp">Arunachal Pradesh</option>
+				<option value="ka">Karnataka</option>
+				<option value="tn">Tamil Nadu</option>
+			</select>
+			<br>
+			<br>
+			<label for="dl">Search for Fav Color : </label>
+			<input type="text" id="dl" list="favcolor">
+			<datalist id="favcolor">
+				<option>Blue</option>
+				<option>Black</option>
+				<option>Brown</option>
+				<option>Yellow</option>
+			</datalist>
+			<br>
+			<br>
+			<textarea rows="10" cols="150">
+				Write your Biography
+			</textarea>
+			<br>
+			<br>
+			<input type="submit"> <br><br>
+			<button type="reset">Click here to Reset</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
